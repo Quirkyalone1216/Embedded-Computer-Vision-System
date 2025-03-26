@@ -23,8 +23,8 @@ android {
         python {
             buildPython "C:\\Users\\chenk\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
             pip {
-                install "numpy"
                 install "opencv-python"
+                install "numpy"
             }
         }
 
